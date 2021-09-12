@@ -31,6 +31,7 @@ This first main function takes each point of the plane successively, applies New
 ## Raised Version
 
 ***newton2*** 
+
 This function is an adaptation of Newton1. However, it calculates the sequence (dz)) in order to calculate Z, the depth of the point.
 
 ***Fract_Newt_Relief*** 
