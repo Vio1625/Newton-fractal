@@ -1,5 +1,7 @@
 # Newton-fractal
 
+<p align="center"><img src="Picture/Introduction.PNG"></p align="center">
+
 
 ## Introduction
 
@@ -24,6 +26,8 @@ This function applies the Newton's Method. Newton's method uses a sequence to ap
 
 This first main function takes each point of the plane successively, applies Newton's method to it in order to associate it with a colour and paint it on the image.
 
+<p align="center"><img src="Picture/Flat_Version.PNG"></p align="center">
+
 ## Raised Version
 
 ***newton2*** 
@@ -34,3 +38,5 @@ This function is an adaptation of Newton1. However, it calculates the sequence (
 This second main function, uses for each point of the plane
 newton2, to calculate the root, to which it converges and its depth.
 The function create the vectors N (normal to the fractal) and S (directed from the light source of the plane, in order to paint the fractal in relief with its shadows and lights). This function is using memoization.
+
+<p align="center"><img src="Picture/Raised_Version.PNG"></p align="center">
